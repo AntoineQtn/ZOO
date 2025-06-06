@@ -1,9 +1,12 @@
 <?php
 
-
-
-class fish extends Animal {
-
-
-
+namespace App;
+class Fish extends Animal {
+    protected function getNoise(): string {
+        return 'bloubloublou';
+    }
 }
+
+
+
+

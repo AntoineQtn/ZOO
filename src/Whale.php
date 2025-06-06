@@ -1,7 +1,10 @@
 <?php
 
-class whale extends Animal{
-
+namespace App;
+class Whale extends Animal{
+ protected function getNoise(): string {
+        return 'whouuuuu';
+    }
 }
 
 ?>

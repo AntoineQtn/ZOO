@@ -1,9 +1,13 @@
 <?php
 
-include_once("Zoo.php");
 
-class bubbleFish extends Animal {
+namespace App;
 
+use App\Animal;
+class BubbleFish extends Animal {
+  protected function getNoise(): string {
+        return 'bloubloublou';
+    }
 
 }
 

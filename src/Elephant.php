@@ -1,7 +1,11 @@
 <?php
 
-class elephant extends Animal{
 
+namespace App;
+class Elephant extends Animal{
+ protected function getNoise(): string {
+        return 'toooooout';
+    }
 }
 
 ?>

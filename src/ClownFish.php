@@ -1,7 +1,11 @@
 <?php
 
-class clownFish extends Animal{
 
+namespace App;
+class ClownFish extends Animal{
+  protected function getNoise(): string {
+        return 'bloubloublou';
+    }
 }
 
 ?>
